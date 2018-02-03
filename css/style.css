@@ -45,6 +45,10 @@ h1 {
 	font-weight: 700;
 	padding: 17px 55px;
 	margin-top: 33px;
+	transition: 0.4s;
+	}
+.h-button:hover {
+		box-shadow: none;
 	}
 .header-button-block {
 	max-width: 210px;
@@ -160,7 +164,12 @@ footer {
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 12px 35px;
+	transition: 0.4s;
 	}
+.footer-button:hover {
+	background: #fff;
+	color: #3a7dfd;
+}
 
 @media (max-width: 1200px) {
 .header-title {
